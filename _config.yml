@@ -4,7 +4,7 @@ timezone: UTC
 
 theme: jekyll-theme-cayman
 images: /assets/images
-logo: /assets/images/gviot-logo.png
+logo: /assets/images/logo_gviot.png
 permalink: pretty
 owner_url:
   url: http://www.greenvulcano.com/

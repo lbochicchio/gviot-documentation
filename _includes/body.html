@@ -1,35 +1,35 @@
 <body>
-  <!--Wrapper-->
-  <section class="main-content">
+<!--Wrapper-->
+<section class="main-content">
     <!-- Here starts the sidebar -->
     <div class="wrapper">
-      <!-- Sidebar Holder -->
-      <nav id="sidebar">
-        <!-- Logo -->
-        <a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.logo}}" class="logo" /></a>
-        <!-- Toggle button -->
-        <ul class="list-unstyled components">
-          <!-- Home -->
-          <li>
-            <a href="#home" data-toggle="collapse" aria-expanded="false">Home</a>
-            <ul class="collapse list-unstyled" id="home">
-              <li><a href="{{ "pages/home/intro/#home" | relative_url }}">Intro</a></li>
-              <li><a href="{{ "pages/home/what_is_claudio/#home" | relative_url }}">What is Claudio?</a></li>
-              <li><a href="{{ "pages/home/how_does_claudio_work/#home" | relative_url }}">How does Claudio work?</a></li>
-              <li><a href="{{ "pages/home/what_makes_claudio_unique/#home" | relative_url }}">What makes Claudio unique?</a></li>
-              <li><a href="{{ "pages/home/who_is_claudio_for/#home" | relative_url }}">Who is Claudio for?</a></li>
-              <li><a href="{{ "pages/home/what_s_under_the_hood/#home" | relative_url }}">What’s under the hood?</a></li>
-            </ul>
-          </li>
-          <!-- Deployment -->
-          <li>
-            <a href="#deployment" data-toggle="collapse" aria-expanded="false">Deployment</a>
-            <ul class="collapse list-unstyled" id="deployment">
-              <li><a href="{{ "pages/deployment/deployment_options/#deployment" | relative_url }}">Deployment Options</a></li>
-            </ul>
-          </li>
-      <!-- Here starts the Main -->
-      <div id="main">
-        {{ content }}
-        <!-- Here ends the Main -->
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <!-- Logo -->
+            <a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.logo}}" class="logo"/></a>
+            <!-- Toggle button -->
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#what_why_when" data-toggle="collapse" aria-expanded="false">What, why, when</a>
+                    <ul class="collapse list-unstyled" id="home">
+                        <li><a href="{{ " pages/what_why_when/what/#what_why_when" | relative_url }}">What is it</a></li>
+                        <li><a href="{{ " pages/what_why_when/why/#what_why_when" | relative_url }}">Why we built it</a></li>
+                        <li><a href="{{ " pages/what_why_when/when/#what_why_when" | relative_url }}">When to use it</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{ " pages/getting_started/getting_started/#getting_started" | relative_url }}">What is it</a>
+                </li>
+                <li>
+                <li>
+                    <a href="#use_cases" data-toggle="collapse" aria-expanded="false">Use cases</a>
+                    <ul class="collapse list-unstyled" id="home">
+                        <li><a href="{{ " pages/use_cases/bridges_monitoring/#what_why_when" | relative_url }}">Bridges monitoring</a></li>
+                        <li><a href="{{ " pages/use_cases/tunnel_monitoring/#what_why_when" | relative_url }}">Tunnel monitoring</a></li>
+                    </ul>
+                </li>
+                <!-- Here starts the Main -->
+                <div id="main">
+                    {{ content }}
+                    <!-- Here ends the Main -->
 </body>
