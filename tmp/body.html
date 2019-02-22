@@ -1,0 +1,76 @@
+<body>
+  <!--Wrapper-->
+  <section class="main-content">
+    <!-- Here starts the sidebar -->
+    <div class="wrapper">
+      <!-- Sidebar Holder -->
+      <nav id="sidebar">
+        <!-- Logo -->
+        <a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.logo}}" class="logo" /></a>
+        <!-- Toggle button -->
+        <ul class="list-unstyled components">
+          <!-- Home -->
+          <li>
+            <a href="#home" data-toggle="collapse" aria-expanded="false">Home</a>
+            <ul class="collapse list-unstyled" id="home">
+              <li><a href="{{ "pages/home/intro/#home" | relative_url }}">Intro</a></li>
+              <li><a href="{{ "pages/home/what_is_claudio/#home" | relative_url }}">What is Claudio?</a></li>
+              <li><a href="{{ "pages/home/how_does_claudio_work/#home" | relative_url }}">How does Claudio work?</a></li>
+              <li><a href="{{ "pages/home/what_makes_claudio_unique/#home" | relative_url }}">What makes Claudio unique?</a></li>
+              <li><a href="{{ "pages/home/who_is_claudio_for/#home" | relative_url }}">Who is Claudio for?</a></li>
+              <li><a href="{{ "pages/home/what_s_under_the_hood/#home" | relative_url }}">What’s under the hood?</a></li>
+            </ul>
+          </li>
+          <!-- Deployment -->
+          <li>
+            <a href="#deployment" data-toggle="collapse" aria-expanded="false">Deployment</a>
+            <ul class="collapse list-unstyled" id="deployment">
+              <li><a href="{{ "pages/deployment/deployment_options/#deployment" | relative_url }}">Deployment Options</a></li>
+            </ul>
+          </li>
+          <!-- Interface -->
+          <!-- Interface Menu -->
+          <li>
+            <a href="#interface" data-toggle="collapse" aria-expanded="false">Interface</a>
+            <ul class="collapse list-unstyled" id="interface">
+              <li><a href="{{ "pages/interface/dashboard/#interface" | relative_url}}">Dashboard</a></li>
+              <!-- Flows submenu -->
+              <li><a href="#flows" data-toggle="collapse" aria-expanded="false">Flows</a>
+                <div id="submenu">
+                  <ul class="collapse list-unstyled" id="flows">
+                    <div class="accordion-body in collapse" style="#height: auto;">
+                      <li><a href="{{ "pages/interface/flows/flows_example/#flows" | relative_url}}">Flows Example</a></li>
+                      <li><a href="{{ "pages/interface/flows/operations/#flows" | relative_url}}">Operations</a></li>
+                      <li><a href="{{ "pages/interface/flows/services#flows" | relative_url}}">Service</a></li>
+                    </div>
+              </li>
+              </ul>
+              </div>
+              <li><a href="{{ "pages/interface/wallet/#interface" | relative_url}}">Wallet</a></li>
+              <li><a href="{{ "pages/interface/account/#interface" | relative_url}}">Account</a></li>
+              <li><a href="{{ "pages/interface/developer/#interface" | relative_url}}">Developer</a></li>
+            </ul>
+            </li>
+          <!-- Uses Cases -->
+          <li> 
+            <a href="#use_cases" data-toggle="collapse" aria-expanded="false">Use Cases</a>
+            <ul class="collapse list-unstyled" id="use_cases">
+              <li><a href="{{ "pages/use_cases/city_administration/#use_cases" | relative_url }}">City Administration</a></li>
+              <li><a href="{{ "pages/use_cases/attendance_check/#use_cases" | relative_url }}">Attendance check</a></li>
+              <li><a href="{{ "pages/use_cases/product_monitoring/#use_cases" | relative_url }}">Product Monitoring</a></li>
+            </ul>
+          </li>
+            <!-- contacts -->
+          <li>
+            <a href="#contacts" data-toggle="collapse" aria-expanded="false">Contacts</a>
+            <ul class="collapse list-unstyled" id="contacts">
+              <li><a href="{{ "pages/contacts/contacts/#contacts" | relative_url }}">Contacts</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- Here starts the Main -->
+      <div id="main">
+        {{ content }}
+        <!-- Here ends the Main -->
+</body>
