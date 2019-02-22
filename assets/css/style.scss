@@ -1,0 +1,186 @@
+---
+---
+@import "bootstrap";
+@import "{{ site.theme }}";
+
+
+   html {
+     font-size: 15px;
+ }
+   body {
+     font-family: sans-serif;
+   }
+   
+  .border {
+    border: 1px solid #a0a0a0;
+}
+
+/**** Sidebar ****/
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* --- Sidebar Style ---*/
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    width: 250px;
+    top: 0;
+    left: 0;
+    background-color: $white-color;
+    box-shadow: $box-shadow;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: $white-color;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid $white-color;
+}
+
+#sidebar ul p {
+    color: $white-color;
+    padding: 10px;
+    font-size:17px;
+}
+
+#sidebar ul li a {
+    padding: 8px;
+    font-size: 0.85em;
+    display: block;
+}
+%main-color {
+  background-color: $main-color;
+  color: $black-color;
+}
+#sidebar ul li a:hover {
+    @extend %main-color;
+}
+#sidebar ul li a:focus {
+    @extend %main-color;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    @extend %main-color;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+ul ul a {
+    font-size: 0.85em !important;
+    padding-left: 50px !important;
+    background: $white-color;
+}
+
+/*--- Logo ---*/
+
+.logo {
+    width: 125px;
+    margin-left: 55px;
+}
+
+/* --- Main Style --- */
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 250px;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot');
+  src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font: normal normal 11px/1 'Glyphicons Halflings';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.glyphicon-chevron-up {
+	&:before {
+		content: "\e113";
+	}
+}
+.glyphicon-chevron-down {
+	&:before {
+		content: "\e114";
+	}
+}
+
+/* --- Mediaqueries --- */
+
+@media (max-width: 768px) {
+    .project-name {
+	  margin-left: 200px;
+	}
+
+    #sidebar {
+      	margin-left: 0px;
+    	width: 200px;
+    	font-size: 15px;
+	}
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+
+  .logo {
+	width: 110px;
+    	margin-left: 40px;
+	}
+
+    #main-content {
+	margin-left: 30px;
+	}
+
+    #main {
+	margin-left: 200px;
+	}
+
+}
