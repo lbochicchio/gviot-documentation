@@ -14,8 +14,22 @@ For this reason we collaborate with companies that have solid background in moni
 
 Collaborating with physicists, geologists, construction engineers is what makes the difference in succeeding in these projects. We strongly believe that the sum of two competences produces more than their pure algebraic result. Only facing a problem from different perspectives and different backgrounds, in a interdisciplinary approach, permits to solve problems better and faster. 
 
-**TODO**: Integrate with the slides (and pictures) from the internal presentation
+<div>
+   <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/what_is_it_business_valuee.png" />
+</div>
+
+This picture describe what the platform does and how raw data from the objects are transormed by the platform into normalized and queryable data.
+At this stage data are generally stored into BigData infrastructure and ready for analytics.
+
+It is at this last step that the business value is added:
+
+- Alarms
+- Alarms
+- Reports
+- Prediction
+- Automatic actions
+- Certifications of data transmitted
 
 <div>
-   <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/what_is_it_high_level_view.png" class="border" />
+   <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/what_is_it_high_level_architecture.png" />
 </div>
