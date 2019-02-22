@@ -15,3 +15,7 @@ For this reason we collaborate with companies that have solid background in moni
 Collaborating with physicists, geologists, construction engineers is what makes the difference in succeeding in these projects. We strongly believe that the sum of two competences produces more than their pure algebraic result. Only facing a problem from different perspectives and different backgrounds, in a interdisciplinary approach, permits to solve problems better and faster. 
 
 **TODO**: Integrate with the slides (and pictures) from the internal presentation
+
+<div>
+   <img src="images/what_high_level_view.png" class="border" />
+</div>
