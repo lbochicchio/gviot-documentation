@@ -20,11 +20,10 @@ At this stage data are generally stored into BigData infrastructure and ready fo
 It is at this last step that the business value is added:
 
 - Alarms
-- Alarms
 - Reports
 - Prediction
 - Automatic actions
-- Certifications of data transmitted
+- Certifications of the data transmitted (ex. in BlockChain)
 
 <div>
    <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/business_value.png" />
