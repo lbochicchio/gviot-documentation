@@ -17,5 +17,5 @@ Collaborating with physicists, geologists, construction engineers is what makes 
 **TODO**: Integrate with the slides (and pictures) from the internal presentation
 
 <div>
-   <img src="{{ site.url }}/pages/what_why_when/images/what_high_level_view.png" class="border" />
+   <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/what_is_it_high_level_view.png" class="border" />
 </div>
