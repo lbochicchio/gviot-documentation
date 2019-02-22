@@ -3,8 +3,8 @@ title: GV IoT Platform
 timezone: UTC
 
 theme: jekyll-theme-cayman
-images: /assets/images
-logo: /assets/images/logo_gviot.png
+images: /pages/images
+logo: /pages/images/logo_gviot.png
 permalink: pretty
 owner_url:
   url: http://www.greenvulcano.com/
