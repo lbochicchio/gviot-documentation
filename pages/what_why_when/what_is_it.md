@@ -93,9 +93,8 @@ Its top 3 features are:
     <td>Your data is what it is important. They are secured by design, using advanced access policies and protections at the gates (gateways) and on the data.</td>
   </tr>
 </table>
+<br/>
 
 In addition the GV IoT platform can:
 * Integrate other systems through the Open Source GreenVulcano® ESB platform
 * Automatise your work through GreenVulcano® Claudio
-
-TODO: Image with Claudio
