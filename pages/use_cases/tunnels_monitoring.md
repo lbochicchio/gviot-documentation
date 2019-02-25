@@ -1,7 +1,7 @@
 ### GV IoT Platform to monitor the health of a tunnel.
 
 <div>
-   <img src="{{site.baseurl}}{{site.images}}/about-us/images/tunnels_monitoring.png" />
+   <img src="{{site.baseurl}}{{site.images}}/use-cases/images/tunnels_monitoring.png" />
 </div>
 
 The scenario for the use of the GV IoT Platform permits the monitoring of the health of a tunnel, in term of structural deformations that may damage the tunnel itself and put Humans in danger.
