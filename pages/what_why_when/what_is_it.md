@@ -76,6 +76,13 @@ The GV IoT platform has been designed to solve many IoT needs. These is a list o
     * Integrated lightweight ticketing system
     * Integrated logbook for production groups to log activities
     * Integrated lightweight CMS (docs related to D/T/N: Devices/Things/Network)
+* Business Intelligence modules
+    * Alarm definition and management through CEP processing
+    * Scheduled and recurring data analysis and eport generation
+    * Certifications of the sensed data using private of public Blockchain
+    * Data analysis using machine learning OpenSource frameworks
+* GV ESB for system integration with other systems
+* GV Claudio for business automation
 
 <br/>
 Its top 3 features are:
