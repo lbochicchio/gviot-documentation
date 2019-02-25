@@ -29,8 +29,12 @@ It is at this last step that the business value is added:
    <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/business_value.png" />
 </div>
 
-The GV IoT platform has been designed to solve many IoT needs. These are a list of its features:
+The GV IoT platform has been designed to solve many IoT needs. These is a list of its features:
 
+* EdgeGatway
+    * It is the component that "talks" to the real object that needs to be monitored and controlled
+    * Extensible and flexible architecture
+    * Simple architecture that permits to be easily integrable with the Gateway and the platform
 * Gateway
     * Its architecture extends and facilitates edge computing
     * Data normalization
