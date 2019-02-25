@@ -87,42 +87,48 @@ Many information about the IoT technology can be found here: [https://www.hbm.co
     </td>
   </tr>
 </table>
-
+<br/>
 The picture 4 of the BraggMONITOR application (window application that connects via LAN to the Industrial BraggMETER) shows all strain sensors that start from the Industrial BraggMETER, that in this case has four fibre cables doors.
 
 <table>
   <tr>
-    <td>
+    <td style="text-align: center; vertical-align: middle;">
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_7.png" />
       </div>
-      (7) The tunnel from one of the working platform (PLE)</td>
-    <td>
+      (7) The tunnel from one of the working platform (PLE)
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_8.png" />
       </div>
-      (8) The FS22 + switches</td>
-    <td>
+      (8) The FS22 + switches
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_9.png" />
       </div>
-      (9) The fibre cable</td>
+      (9) The fibre cable
+    </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align: center; vertical-align: middle;">
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_10.png" />
       </div>
-      (10) Wiring elements</td>
-    <td>
+      (10) Wiring elements
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_11.png" />
       </div>
-      (11) Wiring elements</td>
-    <td>
+      (11) Wiring elements
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_12.png" />
       </div>
-      (12) Wiring elements</td>
+      (12) Wiring elements
+    </td>
   </tr>
 </table>
