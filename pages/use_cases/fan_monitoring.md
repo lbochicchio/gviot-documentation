@@ -1,5 +1,5 @@
-### Fun monitoring
+### Fan monitoring
 
 <div>
-   <img src="{{site.baseurl}}{{site.images}}/about-us/images/fan_monitoring.png" />
+   <img src="{{site.baseurl}}{{site.images}}/use_cases/images/fan_monitoring.png" />
 </div>

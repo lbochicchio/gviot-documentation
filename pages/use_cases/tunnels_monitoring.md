@@ -1,5 +1,3 @@
-### GV IoT Platform to monitor the health of a tunnel.
-
 <div>
    <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels_monitoring.png" />
 </div>
@@ -88,7 +86,7 @@ Many information about the IoT technology can be found here: [https://www.hbm.co
   </tr>
 </table>
 <br/>
-The picture 4 of the BraggMONITOR application (window application that connects via LAN to the Industrial BraggMETER) shows all strain sensors that start from the Industrial BraggMETER, that in this case has four fibre cables doors.
+The picture 4 of the BraggMONITOR application (window application that connects via LAN to the Industrial BraggMETER) shows the signals from the strain sensors connected to the Industrial BraggMETER, that in this case (see picture 1) has four fibre cables doors.
 
 <table>
   <tr>
