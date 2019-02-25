@@ -1,5 +1,9 @@
 ### About us
 
+This is us just turning eighteen years old.
 
+<div>
+   <img src="{{site.baseurl}}{{site.images}}/about-us/images/18-years-anniversary.png" />
+</div>
 
-https://www.greenvulcano.com/about-us
+The rest of the story can be read here: https://www.greenvulcano.com/about-us
