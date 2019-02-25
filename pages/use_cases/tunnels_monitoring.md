@@ -26,7 +26,7 @@ We can use a FS22 Industrial BraggMETER (picture 1) and wire the entire tunnel w
 
 Source: [NTSG Val di Sambro](http://www.ntsgen.com/en/performed-works/tunnel-val-di-sambro):
 
-    "3 lines of sensors have been installed along the whole tunnel, while the thermal sensors have been installed at distances previously set. This to compensate the effects, on the readings, of thermal variations and to obtain a pure mechanical deformation. It is possible to control the longitudinal movements of the tunnel, and verify if the tunnel keeps the initial shape as designed."
+> "NTSG: 3 lines of sensors have been installed along the whole tunnel, while the thermal sensors have been installed at distances previously set. This to compensate the effects, on the readings, of thermal variations and to obtain a pure mechanical deformation. It is possible to control the longitudinal movements of the tunnel, and verify if the tunnel keeps the initial shape as designed."
 
 * <code>Number of sensors:&nbsp;&nbsp;&nbsp;780</code>
 * <code>Sampling rate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 Hz</code>
@@ -48,30 +48,38 @@ Many information about the IoT technology can be found here: [https://www.hbm.co
 <table>
   <tr>
     <td>
-<div>
-   <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/braggmeter.png" />
-</div>
-
-(1) FS22: Industrial BraggMETER</td>
-    <td>.
-.
-
-
-(2) Fibre cable: can be very long</td>
-    <td>.
-.
-
-
-(3) Strain sensor
-</td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/braggmeter.png" />
+      </div>
+      (1) FS22: Industrial BraggMETER</td>
+    <td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/fibre.png" />
+      </div>
+      (2) Fibre cable: can be very long</td>
+    <td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/strain_sensor.png" />
+      </div>
+      (3) Strain sensor
+    </td>
   </tr>
   <tr>
     <td>
-(4) BraggMONITOR application</td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/braggmonitor.png" />
+      </div>
+      (4) BraggMONITOR application</td>
     <td>
-(5) BraggMONITOR application</td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/braggmonitor_details.png" />
+      </div>
+      (5) BraggMONITOR application</td>
     <td>
-(6) Other sensors</td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/sensors.png" />
+      </div>
+      (6) Other sensors</td>
   </tr>
 </table>
 
@@ -80,27 +88,36 @@ The picture 4 of the BraggMONITOR application (window application that connects 
 <table>
   <tr>
     <td>
-(7) The tunnel from one of the working platform (PLE)</td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_7.png" />
+      </div>
+      (7) The tunnel from one of the working platform (PLE)</td>
     <td>
-(8) The FS22 + switches</td>
-    <td>.
-.
-.
-
-(9) The fibre cable</td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_8.png" />
+      </div>
+      (8) The FS22 + switches</td>
+    <td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_9.png" />
+      </div>
+      (9) The fibre cable</td>
   </tr>
   <tr>
     <td>
-(10) Wiring elements</td>
-    <td>.
-.
-.
-
-(11) Switch + wiring elements</td>
-    <td>.
-.
-.
-
-(12) Wiring elements</td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_10.png" />
+      </div>
+      (10) Wiring elements</td>
+    <td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_11.png" />
+      </div>
+      (11) Wiring elements</td>
+    <td>
+      <div>
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_12.png" />
+      </div>
+      (12) Wiring elements</td>
   </tr>
 </table>
