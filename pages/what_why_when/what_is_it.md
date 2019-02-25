@@ -73,6 +73,7 @@ The GV IoT platform has been designed to solve many IoT needs. These are a list 
     * Integrated logbook for production groups to log activities
     * Integrated lightweight CMS (docs related to D/T/N: Devices/Things/Network)
 
+<br/>
 Its top 3 features are:
 
 <table>
