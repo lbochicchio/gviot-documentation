@@ -51,35 +51,42 @@ Many information about the IoT technology can be found here: [https://www.hbm.co
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/braggmeter.png" />
       </div>
-      (1) FS22: Industrial BraggMETER</td>
+      (1) FS22: Industrial BraggMETER
+    </td>
     <td>
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/fibre.png" />
       </div>
-      (2) Fibre cable: can be very long</td>
+      (2) Fibre cable: can be very long
+    </td>
     <td>
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/strain_sensor.png" />
       </div>
       (3) Strain sensor
     </td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/braggmonitor.png" />
       </div>
-      (4) BraggMONITOR application</td>
+      (4) BraggMONITOR application
+    </td>
     <td>
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/braggmonitor_details.png" />
       </div>
-      (5) BraggMONITOR application</td>
+      (5) BraggMONITOR application
+    </td>
     <td>
       <div>
         <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/sensors.png" />
       </div>
-      (6) Other sensors</td>
+      (6) Other sensors
+    </td>
+    <td>&nbsp;</td>
   </tr>
 </table>
 
@@ -89,34 +96,34 @@ The picture 4 of the BraggMONITOR application (window application that connects 
   <tr>
     <td>
       <div>
-        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_7.png" />
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_7.png" />
       </div>
       (7) The tunnel from one of the working platform (PLE)</td>
     <td>
       <div>
-        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_8.png" />
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_8.png" />
       </div>
       (8) The FS22 + switches</td>
     <td>
       <div>
-        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_9.png" />
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_9.png" />
       </div>
       (9) The fibre cable</td>
   </tr>
   <tr>
     <td>
       <div>
-        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_10.png" />
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_10.png" />
       </div>
       (10) Wiring elements</td>
     <td>
       <div>
-        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_11.png" />
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_11.png" />
       </div>
       (11) Wiring elements</td>
     <td>
       <div>
-        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_detail_12.png" />
+        <img src="{{site.baseurl}}{{site.images}}/use_cases/images/tunnels/tunnel_details_12.png" />
       </div>
       (12) Wiring elements</td>
   </tr>
