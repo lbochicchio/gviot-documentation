@@ -1,12 +1,12 @@
 # What is it 
 
-The GV IoT Platform integrates IoT devices to enterprise or cloud systems.
+The **GV IoT Platform** integrates IoT devices to enterprise or cloud systems.
 
 It allows the user to create and manage their own IoT ecosystem by facilitating
 data flow, communication between objects, device management and, in general,
 enabling advanced application functionalities.
 
-One of the most important missions of the GV IoT platform is to make objects speak, with a strong orientation towards infrastructures such as bridges, tunnels, construction sites, buildings, wind turbines and in general all infrastructures that need maintenance and monitoring.
+One of the most important missions of the **GV IoT platform** is to make objects speak, with a strong orientation towards infrastructures such as bridges, tunnels, construction sites, buildings, wind turbines and in general all infrastructures that need maintenance and monitoring.
 
 In general, understand from the huge amount of data that the objects communicate, the health of the object itself. To prevent, in this way, failures or problems.
 
@@ -29,7 +29,7 @@ It is at this last step that the business value is added:
    <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/business_value.png" />
 </div>
 
-The GV IoT platform has been designed to solve many IoT needs. These is a list of its features:
+The **GV IoT platform** has been designed to solve many IoT needs. These is a list of its features:
 
 * EdgeGatway
     * It is the component that "talks" to the real object that needs to be monitored and controlled
@@ -98,7 +98,7 @@ Its top 3 features are:
   </tr>
   <tr>
     <td>Open API</td>
-    <td>Any operation you can do from the console can be also done via API.<br/><br/>The entire platform follows the "API first approach".<br/><br/>Note: If the console, with its dashboards customizable by users, wouldn't be enough, we at GreenVulcano can rapidly implement vertical solution with a personalized console to operate your own installation of the GV IoT platform.</td>
+    <td>Any operation you can do from the console can be also done via API.<br/><br/>The entire platform follows the "API first approach".<br/><br/>Note: If the console, with its dashboards customizable by users, wouldn't be enough, we at GreenVulcano can rapidly implement vertical solution with a personalized console to operate your own installation of the **GV IoT platform**.</td>
   </tr>
   <tr>
     <td>Security by design</td>
@@ -107,6 +107,6 @@ Its top 3 features are:
 </table>
 <br/>
 
-In addition the GV IoT platform can:
+In addition the **GV IoT platform** can:
 * Integrate other systems through the Open Source GreenVulcano® ESB platform
 * Automatise your work through GreenVulcano® Claudio

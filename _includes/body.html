@@ -33,7 +33,12 @@
                     <a href="{{ "pages/customers/customers" | relative_url }}">Customers</a>
                 </li>
                 <li>
-                    <a href="{{ "pages/installation/installation" | relative_url }}">Installation</a>
+                    <a href="#installation" data-toggle="collapse" aria-expanded="false">Installation</a>
+                    <ul class="collapse list-unstyled" id="installation">
+                        <li><a href="{{ "pages/installation/docker/#installation" | relative_url }}">Docker</a></li>
+                        <li><a href="{{ "pages/installation/cloud/#installation" | relative_url }}">Cloud</a></li>
+                        <li><a href="{{ "pages/installation/on_premise/#installation" | relative_url }}">On premise</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="{{ "pages/architecture/architecture" | relative_url }}">Architecture</a>
