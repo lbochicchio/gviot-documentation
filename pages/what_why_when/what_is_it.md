@@ -2,6 +2,10 @@
 
 The **GV IoT Platform** integrates IoT devices to enterprise or cloud systems.
 
+<div>
+   <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/business_value.png" />
+</div>
+
 It allows the user to create and manage their own IoT ecosystem by facilitating
 data flow, communication between objects, device management and, in general,
 enabling advanced application functionalities.
@@ -24,10 +28,6 @@ It is at this last step that the business value is added:
 - Prediction
 - Automatic actions
 - Certifications of the data transmitted (ex. in BlockChain)
-
-<div>
-   <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/business_value.png" />
-</div>
 
 The **GV IoT platform** has been designed to solve many IoT needs. These is a list of its features:
 
@@ -84,7 +84,6 @@ The **GV IoT platform** has been designed to solve many IoT needs. These is a li
 * GV ESB for system integration with other systems
 * GV Claudio for business automation
 
-<br/>
 Its top 3 features are:
 
 <table>
@@ -106,7 +105,6 @@ Its top 3 features are:
   </tr>
 </table>
 <br/>
-
 In addition the **GV IoT platform** can:
 * Integrate other systems through the Open Source GreenVulcano® ESB platform
 * Automatise your work through GreenVulcano® Claudio
