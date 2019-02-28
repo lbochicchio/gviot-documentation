@@ -2,6 +2,10 @@
 
 The **GV IoT Platform** integrates IoT devices to enterprise or cloud systems.
 
+One of the most important missions of the **GV IoT platform** is to make objects speak, with a strong orientation towards infrastructures such as bridges, tunnels, construction sites, buildings, wind turbines and in general all infrastructures that need maintenance and monitoring.
+
+In general, understand from the huge amount of data that the objects communicate, the health of the object itself. To prevent, in this way, failures or problems.
+
 <div>
    <img src="{{site.baseurl}}{{site.images}}/what_why_when/images/business_value.png" />
 </div>
@@ -9,10 +13,6 @@ The **GV IoT Platform** integrates IoT devices to enterprise or cloud systems.
 It allows the user to create and manage their own IoT ecosystem by facilitating
 data flow, communication between objects, device management and, in general,
 enabling advanced application functionalities.
-
-One of the most important missions of the **GV IoT platform** is to make objects speak, with a strong orientation towards infrastructures such as bridges, tunnels, construction sites, buildings, wind turbines and in general all infrastructures that need maintenance and monitoring.
-
-In general, understand from the huge amount of data that the objects communicate, the health of the object itself. To prevent, in this way, failures or problems.
 
 For this reason we collaborate with companies that have solid background in monitoring infrastructures, with companies that produce sensors and with expert in the field of what has to be monitored.
 
