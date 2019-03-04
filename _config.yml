@@ -3,7 +3,7 @@ title: GV IoT Platform
 description: GV IoT Platform Documentation
 timezone: UTC
 
-theme: jekyll-theme-slate
+theme: minimal-mistakes-jekyll
 images: /pages
 logo: /pages/images/logo_gviot.png
 permalink: pretty
