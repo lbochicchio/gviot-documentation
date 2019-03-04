@@ -2,7 +2,7 @@
 title: GV IoT Platform
 timezone: UTC
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 images: /pages
 logo: /pages/images/logo_gviot.png
 permalink: pretty
