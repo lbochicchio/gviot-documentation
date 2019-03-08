@@ -75,13 +75,9 @@ We will describe all the steps a single measure will do from **Humans to Things*
 
 
 1. **Starting point - the Humans**
-
-        We will describe what a person can do to act on a Thing: open a door, turn on the heat, turn off lights, etc.
+We will describe what a person can do to act on a Thing: open a door, turn on the heat, turn off lights, etc.
 
 2. The console
-
-        We don't want to spoil :-) Read the chapter that tells the whole story
-
 3. The core
 4. Dispatch commands
 5. The Gateway receive the command
