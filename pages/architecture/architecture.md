@@ -1,108 +1,165 @@
+<h1><strong>Architecture</strong></h1>
 
-# **Overview of the GV IoT platform: trip of a single measurement**
 
-To simplify the exposition of the GV IoT platform, in terms of what it is and how it addresses some of the top IoT issues (amount of data to elaborate, security, scalability, storage and analytics), we will describe the trip of a single measurement from **Things to Humans **and the back trip of a command from **Humans to Things**.
-
+<p>
+To simplify the exposition of the GV IoT platform, in terms of what it is and how it addresses some of the top IoT issues (amount of data to elaborate, security, scalability, storage and analytics), we will describe the trip of a single measurement from <strong>Things to Humans </strong>and the back trip of a command from <strong>Humans to Things</strong>.
+</p>
+<p>
 To make the narration of the trip more intuitive and concrete we will use a single use case described by the reference scenario below.
-
+</p>
+<p>
 Since the narration will be done on a specific scenario, we don't pretend to cover every single aspect of the IoT, or to cover all possibilities we have to solve all obstacles, but we strongly believe that the general understanding of the platform will be a lot better. Anyway on some situation we will refer to the other two scenarios.
-
+</p>
+<p>
 During the trip we will often zoom in and out from details to high level architecture, to better under the the capabilities of the GV IoT platform.
-
+</p>
+<p>
 Moreover, along the narration we will focus on these aspects of the GV IoT platform:
+</p>
+<ul>
 
+<li>Security aspects
 
+<li>Traffic and scalability of the platform
 
-*   Security aspects
-*   Traffic and scalability of the platform
-*   The 3M = Modularity, maintainability, monitorability 
-
+<li>The 3M = Modularity, maintainability, monitorability 
+</li>
+</ul>
+<p>
 We will also describe what choices we do have at each step. For example:
+</p>
+<ul>
+
+<li>Are the sensors directly connected to the internet or do we need a dedicated 4G communication?
+
+<li>On the EdgeGateway if we have to transfer to the Gateway 100 GB per day, what protocol it is better to use 
+<ul>
+ 
+<li>MQTT
+ 
+<li>json/http
+ 
+<li>Kafka 2 Kafka communication
+ 
+<li>Raw socket communication
+</li> 
+</ul>
+
+<li>Do we have to send all the data or only an aggregate value?
+
+<li>What about filtering and buffering?
+</li>
+</ul>
+<h3>High level architecture</h3>
 
 
-
-*   Are the sensors directly connected to the internet or do we need a dedicated 4G communication?
-*   On the EdgeGateway if we have to transfer to the Gateway 100 GB per day, what protocol it is better to use
-    *   MQTT
-    *   json/http
-    *   Kafka 2 Kafka communication
-    *   Raw socket communication
-*   Do we have to send all the data or only an aggregate value?
-*   What about filtering and buffering?
-
-
-### High level architecture
-
+<p>
 The architecture of the platform will be described in a specific chapter, but for now it is useful to keep it at hand while we explain some aspects of the platform.
-
+</p>
+<p>
 
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/architecture0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/architecture0.png "image_tooltip")
+<img src="images/architecture0.png" width="" alt="alt_text" title="image_tooltip">
+
+</p>
+<h3>Overview of the trip from Things to Humans: sensed data and analytics</h3>
 
 
-
-### Overview of the trip from Things to Humans: sensed data and analytics
-
+<p>
 
 
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/architecture1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/architecture1.png "image_tooltip")
+<img src="images/architecture1.png" width="" alt="alt_text" title="image_tooltip">
 
+</p>
+<p>
+We will describe all the steps that a single measure will do from <strong>Things to Humans</strong>:
+</p>
+<ol>
 
-We will describe all the steps that a single measure will do from **Things to Humans**:
-
-
-
-1. **Starting point - the Things**
+<li><strong>Starting point - the Things</strong>
+<p>
 
         We will describe how a sensor detects a measure (ex. the temperature of a room at a "T" time), how the measurement is read (raw value) on the sensor and pre-formatted into a digital value (ex. by the firmware and HW on the sensor)
+</p>
+<ol>
 
-2. EdgeGateway: sends the data through the internet to the Gateway
+<li>EdgeGateway: sends the data through the internet to the Gateway
+<p>
 
         We don't want to spoil :-) Read the chapter that tells the whole story
+</p>
+<ol>
 
-3. Internet: The data crosses the internet
-4. Enter the Gateway
-5. Buffering / decoupling (store the raw data into an intermediate storage)
-6. DataPump from the buffer to the data lake
-7. DataLake & Streaming
-8. Analytics
-9. **End point: the Humans**
+<li>Internet: The data crosses the internet
+
+<li>Enter the Gateway
+
+<li>Buffering / decoupling (store the raw data into an intermediate storage)
+
+<li>DataPump from the buffer to the data lake
+
+<li>DataLake & Streaming
+
+<li>Analytics
+
+<li><strong>End point: the Humans</strong>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h3>Overview of the trip from Humans to Things: configure, administer, act on actuators</h3>
 
 
-### Overview of the trip from Humans to Things: configure, administer, act on actuators
-
+<p>
 
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/architecture2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/architecture2.png "image_tooltip")
+<img src="images/architecture2.png" width="" alt="alt_text" title="image_tooltip">
 
+</p>
+<p>
+We will describe all the steps a single measure will do from <strong>Humans to Things</strong>:
+</p>
+<ol>
 
-We will describe all the steps a single measure will do from **Humans to Things**:
-
-
-
-1. **Starting point - the Humans**
+<li><strong>Starting point - the Humans</strong>
+<p>
 
         We will describe what a person can do to act on a Thing: open a door, turn on the heat, turn off lights, etc.
+</p>
+<ol>
 
-2. The console
+<li>The console
+<p>
 
         We don't want to spoil :-) Read the chapter that tells the whole story
+</p>
+<ol>
 
-3. The core
-4. Dispatch commands
-5. The Gateway receive the command
-6. Internet: The command crosses the internet
-7. The EdgeGateway receive the command
-8. **End point: the Things**
+<li>The core
 
-<!-- Docs to Markdown version 1.0β16 -->
+<li>Dispatch commands
 
+<li>The Gateway receive the command
+
+<li>Internet: The command crosses the internet
+
+<li>The EdgeGateway receive the command
+
+<li><strong>End point: the Things</strong>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
