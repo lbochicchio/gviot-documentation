@@ -50,13 +50,10 @@ We will describe all the steps that a single measure will do from **Things to Hu
 
 
 1. **Starting point - the Things**
-
-        We will describe how a sensor detects a measure (ex. the temperature of a room at a "T" time), how the measurement is read (raw value) on the sensor and pre-formatted into a digital value (ex. by the firmware and HW on the sensor)
+    We will describe how a sensor detects a measure (ex. the temperature of a room at a "T" time), how the measurement is read (raw    
+    value) on the sensor and pre-formatted into a digital value (ex. by the firmware and HW on the sensor)
 
 2. EdgeGateway: sends the data through the internet to the Gateway
-
-        We don't want to spoil :-) Read the chapter that tells the whole story
-
 3. Internet: The data crosses the internet
 4. Enter the Gateway
 5. Buffering / decoupling (store the raw data into an intermediate storage)
