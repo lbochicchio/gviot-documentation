@@ -62,7 +62,7 @@ The architecture of the platform will be described in a specific chapter, but fo
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/architecture0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/architecture0.png" width="" alt="alt_text" title="image_tooltip">
+<img src="{{site.baseurl}}{{site.images}}/architecture/images/architecture0.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <h3>Overview of the trip from Things to Humans: sensed data and analytics</h3>
@@ -74,7 +74,7 @@ The architecture of the platform will be described in a specific chapter, but fo
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/architecture1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/architecture1.png" width="" alt="alt_text" title="image_tooltip">
+<img src="{{site.baseurl}}{{site.images}}/architecture/images/architecture1.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
@@ -124,7 +124,7 @@ We will describe all the steps that a single measure will do from <strong>Things
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/architecture2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/architecture2.png" width="" alt="alt_text" title="image_tooltip">
+<img src="{{site.baseurl}}{{site.images}}/architecture/images/architecture2.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
